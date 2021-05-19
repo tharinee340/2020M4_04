@@ -21,4 +21,28 @@ body .container {
 .card-title {
     color: black 80%;
 }
-
+.footer {
+    padding-top: 25px;
+    border-top: 1px solid lightgray;
+}
+.follow {
+    text-align: center;
+    font-size: 13px;
+}
+.follow .inc {
+    font-size: 12;
+    margin-top: 10px;
+}
+.search {
+    padding-top: 60px;
+}
+.page-item .page-link {
+    border-color: lightgrey;
+    color: black;
+}
+.page-item .active .page-link  {
+    background-color: gray;
+    z-index: 1;
+    color: white;
+    border-color: slategray;
+}
